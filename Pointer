@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int num1, num2;
+    int *ptr1, *ptr2;
+
+    // Değişkenlere değer atama
+    num1 = 10;
+    num2 = 20;
+
+    // İşaretçilere değişken adreslerini atama
+    ptr1 = &num1;
+    ptr2 = &num2;
+
+    // Değerleri ekrana yazdırma
+    printf("num1 = %d\n", *ptr1);
+    printf("num2 = %d\n", *ptr2);
+
+    return 0;
+}
