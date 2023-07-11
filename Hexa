@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    double sayi;
+
+    printf("Ondalık bir sayı girin: ");
+    scanf("%lf", &sayi);
+
+    printf("Onaltılık (hexadecimal) biçimde: %a\n", sayi);
+
+    return 0;
+}
